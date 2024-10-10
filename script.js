@@ -5,8 +5,13 @@ async function fetchJokes() {
     const data = await response.json();
     console.log(data)
 
-}
+    const element = document.querySelector(".jokes");
+      const setup = data.setup;
+      const punchline = data.punchline;
+    
+      element.innerHTML += "<p>" + AAAAAAAAAAAAAAAAA+"</p>";
 
+}  
 
 
 fetchJokes();
