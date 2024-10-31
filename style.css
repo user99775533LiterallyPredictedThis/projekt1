@@ -3,23 +3,37 @@ body {
     background-color: #f3eacd;
 }
 
-div {
-    width: 50vw;
-    height: 100vh;
+.container {
+    width: 35vw;
+    height: 70vh;
     background-color: #e6ae65;
-    margin: auto;
+    position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
     text-align: center;
-    box-shadow: 20px 0 #e19e5f, -20px 0 #f3c86d;
-    border: 1rem solid #ecf5f700;
+    border: 5px solid #ecf5f700;
     box-sizing: border-box;
   }
 
   h1 {
     color: #fff2b8; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: bolder;
     text-shadow: 4px 0 #f1c88b, -2px 0 #fff5ca;
+
+  }
+
+  h2 {
+    color: #fff2b8;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size:auto;
+    font-weight: normal;
+    text-shadow: 2px 0 #f1c88b, -0.5px 0 #fff5ca;
 
   }
 
@@ -27,7 +41,7 @@ div {
     color: #fff2b8;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    font-size:20px;
+    font-size: 30pt;
     font-weight: normal;
     text-shadow: 2px 0 #f1c88b, -0.5px 0 #fff5ca;
 
